@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/categories")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://bookstore-react-frontend2.herokuapp.com")
 public class CategoryRestController {
 
     private BookCategory bookCategory;
