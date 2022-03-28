@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/authors")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://bookstore-react-frontend2.herokuapp.com")
 public class AuthorRestController {
 
     private final AuthorService authorService;
